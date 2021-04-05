@@ -1,0 +1,30 @@
+.list-group {
+  .custom-list {
+    border-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    .list-text {
+      padding-left: 15px;
+    }
+
+    a,
+    a:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    .list-image-h {
+      height: 80px;
+      object-fit: cover;
+    }
+  }
+
+  .btn-bookmark.btn-secondary {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: 0;
+  }
+}

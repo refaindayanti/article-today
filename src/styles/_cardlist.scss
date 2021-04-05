@@ -1,0 +1,26 @@
+.full-width {
+  width: 100%;
+}
+
+.custom-card {
+  a,
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.card-image-h {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  .btn-bookmark.btn-secondary {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #00000094;
+    border: 0;
+  }
+}
